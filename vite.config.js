@@ -4,5 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/procesador-csv-ui/'
+  base: '/procesador-csv-ui/',
+  build: { outDir: 'docs' }
 })
